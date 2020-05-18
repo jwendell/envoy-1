@@ -298,6 +298,11 @@ config_setting(
 )
 
 config_setting(
+    name = "linux_s390x",
+    values = {"cpu": "s390x"},
+)
+
+config_setting(
     name = "windows_x86_64",
     values = {"cpu": "x64_windows"},
 )
